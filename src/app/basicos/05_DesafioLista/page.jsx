@@ -1,3 +1,5 @@
+import React from 'react'
+
 export default function DesafioLista(){
         function metodoArray(){
             function final(){
@@ -17,12 +19,12 @@ export default function DesafioLista(){
         
         
         return (
-            <div>
+            <React.Fragment>
 
             {a3()}
+            
 
-
-            </div>
+            </React.Fragment>
     )
 
 
